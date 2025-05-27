@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            border: solid black;
+            background-color: bisque;
+            margin-top:10vh;
+            gap: 100px;
+        }
+        .img{
+            border: 1px solid red;
+            height:200px;
+            width: 200px;
+            margin-top: 50px;
+            gap: 30px;
+            transition-duration: 2s;
+        }
+        .img:hover{
+            height: 250px;
+            width: 250px;
+            border-radius: 40px;
+            transform: rotate(50deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>laptops</h1>
+    <div id="div">
+        <img class="img" src="assets/Laptop/lt-1.jpg" alt="">
+        <img class="img" src="assets/Laptop/lt-10.jpg" alt="">
+        <img class="img" src="assets/Laptop/lt-2.jpg" alt="">
+        <img class="img" src="assets/Laptop/lt-3.jpg" alt="">
+    </div>
+</body>
+</html>
